@@ -1,0 +1,44 @@
+.blog.wrapper {
+	margin: 0 2%;
+}
+
+.row.posts-row {
+	display: grid;
+	max-width: 1920px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 2em;
+	align-items: flex-start;
+	margin: 2% auto;
+}
+
+.blog-box, .category .content article {
+	max-width: 480px;
+}
+
+.post-image h3 {
+    margin: 20px 0 5px;
+}
+
+.author-info p {
+    margin-bottom: 10px;
+}
+
+.archive-pagination {
+	display: flex;
+	justify-content: space-around;
+	max-width: 176px;
+	margin: 50px auto;
+}
+
+.archive-pagination a {
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 900;
+	margin-bottom: 4px;
+	padding: 8px 12px;
+	text-decoration: none;
+}
